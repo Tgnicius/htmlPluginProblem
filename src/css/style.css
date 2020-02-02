@@ -1,0 +1,35 @@
+﻿body {
+    margin:20px
+}
+
+button {
+    height:40px;
+    width:250px;
+    font-size:x-large
+}
+
+
+.search-bar{
+    width:100%;
+}
+
+.tabela{
+    float:left;
+}
+
+#repos-info {
+
+}
+
+ul{
+    list-style-type:none;
+
+}
+
+li{
+    margin-left:-40px;
+}
+
+.info1{
+    display:inline-block;
+}
