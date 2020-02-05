@@ -4,8 +4,8 @@ Os arquivos que deveriam estar na pasta 'coverage' estão fora dela, uma vez que
 
 Os arquivos em questão são: 
 
-clover.xml
-coverage-final.json
-Icov-report (diretório)
-Icov.info
+clover.xml;
+coverage-final.json;
+Icov-report (diretório);
+Icov.info;
 
