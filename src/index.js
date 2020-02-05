@@ -1,4 +1,4 @@
-﻿'use strict'
+'use strict'
 import React from 'react'
 /* import ReactDOM from 'react-dom'
   * import {render as reactDomRender} from 'react-dom' --> Pegar do 'react-dom' a propriedade render (1) e usá-la no meu projeto como reactDomRender(2)
@@ -6,9 +6,7 @@ import React from 'react'
 import { render } from 'react-dom' // Exporta a função render de 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 import App from './app' // ./ significa relativamente ao arquivo (index.html no caso)
-import './css/style.css'
-
-
+import './css/style.css' // css da página que "entra" na página através do loader
 
 /* var React = require('react') //Importa o 'react' que foi baixado por npm
 var ReactDOM = require('react-dom') //Importa o 'react-dom' também baixado por npm */
@@ -29,5 +27,5 @@ if (module.hot) { // hot-reload --> Atualiza automaticamente assim que salvar, s
     const NextApp = require('./app').default /* Acontece uma atualização, ao invés de atualizar tudo, atualiza apenas o
     necessário --- .default serve para importar um js para es6, se não importaria o default ao invés do app */
     renderApp(NextApp)
-  }) 
+  })
 }
